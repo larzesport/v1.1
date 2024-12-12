@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LARZ ESPORT</title>
+    <!-- Ajouter la police "Russo One" depuis Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            position: relative;
+            text-align: center;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            margin: 0;
+        }
+        .larz-logo {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            position: absolute;
+            top: 5px;
+            left: 20px;
+            z-index: 10;
+        }
+        .larz-logo img {
+            max-width: 60px;
+            margin-right: 10px;
+        }
+        .larz-logo h1 {
+            color: #fff;
+            font-family: 'Russo One', sans-serif;
+            font-size: 1.6em;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end; /* Aligne les éléments à droite */
+            background-color: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a img {
+            width: 40px;
+            height: 40px;
+        }
+        nav a:hover {
+            color: #e60000;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        .about, .shop, .social, .support, .sponsors {
+            background-color: #111;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e60000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #b30000;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+        }
+        .sponsor-link {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+        }
+        .sponsor-link img {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        .sponsor-link a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .sponsor-link a:hover {
+            background-color: #b30000;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    
+    <!-- Logo LARZ ESPORT en haut à gauche -->
+    <div class="larz-logo">
+        <img src="https://pbs.twimg.com/media/GeiTngAWAAEzKIY?format=png&name=small" alt="Logo LARZ ESPORT">
+        <h1>LARZ ESPORT</h1>
+    </div>
+    
+    <nav>
+        <!-- Liens avec logos -->
+        <a href="https://x.com/esportlarz" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/220px-Logo_of_Twitter.svg.png" alt="Twitter">
+        </a>
+        <a href="https://discord.com/invite/GzUgUSSY8p" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/8/80/Logo_Discord_2015.png/612px-Logo_Discord_2015.png?20210527163045" alt="Discord">
+        </a>
+        <a href="https://www.twitch.tv/larz_tv" target="_blank">
+            <img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/twitch_icon_137066.png" alt="Twitch">
+        </a>
+    </nav>
+    
+    <section id="about" class="about">
+        <h2>À propos de nous</h2>
+        <p>LARZ ESPORT est une structure dynamique dans le monde du gaming. Nous croyons en la puissance du jeu vidéo pour créer des communautés unies et passionnées.</p>
+    </section>
+    
+    <section id="shop" class="shop">
+        <h2>Boutique</h2>
+        <p>Rejoignez la communauté avec notre merch exclusif, parfait pour les fans et les gamers.</p>
+        <a href="https://www.kapoli.fr/boutiquedesclubs/larz-esport-c174100763" class="btn">Visitez la boutique</a>
+    </section>
+    
+    <section id="social" class="social">
+        <h2>Réseaux sociaux</h2>
+        <p>Suivez-nous sur nos plateformes et restez connectés avec toutes nos activités.</p>
+        <a href="https://linktr.ee/larzesport" class="btn">Voir nos réseaux</a>
+    </section>
+    
+    <section id="support" class="support">
+        <h2>Soutenir LARZ ESPORT</h2>
+        <p>Si vous souhaitez soutenir LARZ ESPORT et nous aider à grandir, vous pouvez faire un don via PayPal. Votre contribution nous permet de continuer à offrir du contenu de qualité à notre communauté.</p>
+        <a href="https://paypal.me/larzesport" class="btn">Faire un don</a>
+    </section>
+    
+    <section id="sponsors" class="sponsors">
+        <h2>Sponsors</h2>
+        <p>Découvrez nos sponsors et partenaires. Cliquez sur les logos pour en savoir plus !</p>
+        
+        <div class="sponsor-link">
+            <a href="https://www.instant-gaming.com/?igr=gamer-7c15c0a" target="_blank">
+                <img src="https://cdn.worldvectorlogo.com/logos/instant-gaming-1.svg" alt="Instant Gaming">
+            </a>
+            <p>Instant Gaming</p>
+        </div>
+
+        <div class="sponsor-link">
+            <a href="https://rogueenergy.com/mefkbruh" target="_blank">
+                <img src="https://maxesport.gg/medias/2022/12/logo-rogue-energy-png.png" alt="Rogue Energy">
+            </a>
+            <p>Rogue Energy</p>
+        </div>
+ 
+        <div class="sponsor-link">
+            <a href="https://www.kapoli.fr/boutiquedesclubs/larz-esport-c174100763" target="_blank">
+                <img src="https://static.wixstatic.com/media/bbcd1a_006103b3707d40b3a87779ace75ff7fd~mv2.png" alt="Kapoli">
+            </a>
+            <p>Kapoli</p>
+        </div>
+
+        <div class="sponsor-link">
+            <a href="https://the-g-lab.tech/?ref=LARZESPORT" target="_blank">
+                <img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/5fe26aca30794200017d5689/0x0.png" alt="The Glab">
+            </a>
+            <p>The Glab</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 LARZ ESPORT (DEV BY MYTRAA). Tous droits réservés. Version 1.0</p>
+    </footer>
+</body>
+</html>
